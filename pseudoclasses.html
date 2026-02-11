@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: aqua;
+        }
+        a:visited{
+            color: brown;
+        }
+        a:hover{
+            color:red;
+        }
+        ul{
+            list-style:none;
+            display:flex;
+        }
+        ul li{
+            margin: 20px;
+            padding: 10px;
+            border: 2px solid red;
+        }
+        ul li:nth-child(3){
+            color: blue;
+        }
+        ul li::first-letter{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://google.com", target="_blank">Visit the link</a>
+    <ul>
+        <li>
+            Ashwani
+        </li>
+        <li>
+            Arsh
+        </li>
+    </ul>
+</body>
+</html>
